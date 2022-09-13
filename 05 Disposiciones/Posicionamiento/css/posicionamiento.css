@@ -1,0 +1,29 @@
+div {
+    border: 1px solid gray
+}
+/* Posicionamiento Relativo - Se posiciona en relacion al posicionamiento original */
+.relative {
+    position: relative;
+    left: 80px;
+    margin-left: 5px;
+}
+
+/* posicionamiento fijo (fixed) - se posiciona en relacion a la pantalla (ideal para poner un logo de wsp,msg, etc) */
+.fixed {
+    position: fixed;
+    bottom: 0px;
+    background-color: aqua;
+    /* z-index: 10px; (se posiciona por encima de cualquier elemento) */
+}
+/* posicionamiento absoluto*/
+.absolute {
+    top: 0px;
+
+}
+
+/* Sticky - Se utiliza para qe los menus esten siempre visible cuando hacemos un scroll */
+.sticky {
+    position: sticky;
+    background-color: darkgoldenrod;
+    color: white;
+}

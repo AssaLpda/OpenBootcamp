@@ -1,0 +1,33 @@
+* {
+    padding: 0; /* espacio del body */
+    margin: 0; /* margen de espacio */
+}
+
+.video {
+    width: 100vw; /* ancho del video */
+    height: 100vh; /* alto del video*/
+    object-fit: cover; /* Cubre todo el ancho del video */
+    position: fixed; /* se muestra siempre */
+} 
+.header {
+    height: 100vh;  /* el texto ocupa el 100% del header */
+    position: relative; /* Lo muestra por encima del video */
+    text-align: center; /* Alinea el texto en el centro */
+    display: flex; /* el flex es la capacidad de alterar las dimensiones de cierto item(texto, video,img) */
+    justify-content: center; /* centra el texto en el eje X - Y */
+    align-items: center; /*  */
+    flex-direction: column; /* indica la direccion del flex (texto en este caso) */
+    gap: 10px; /* espacio entre cada columna (en este caso "visita puerto madero" con el BOTON "entrar" */
+    font-size: 50px; /* Tamño de la letra*/
+    color: antiquewhite; /* Color de la letra */
+    
+    
+
+
+}   
+
+
+
+html {
+    font-family: Arial, Helvetica, sans-serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* tipos de letras */
+}
